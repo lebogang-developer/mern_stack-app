@@ -1,8 +1,13 @@
+import { Button, Input } from '@chakra-ui/react';
 
 const CreatePage = () => {
   return (
     <div>
-        CreatePage
+         <Input placeholder="Product Name" />
+      <Input placeholder="Product Price" />
+      <Button colorScheme="teal" mt={4}>
+        Create Product
+      </Button>
     </div>
   )
 }

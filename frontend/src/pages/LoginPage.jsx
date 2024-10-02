@@ -1,8 +1,9 @@
+import { SignIn } from '@clerk/clerk-react';
 
 const LoginPage = () => {
   return (
-    <div>
-      LoginPage
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
+      <SignIn />
     </div>
   )
 }
